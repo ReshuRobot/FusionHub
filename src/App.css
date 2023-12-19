@@ -1,0 +1,132 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+   
+        
+}
+
+.logo{
+    width:150px;
+}
+.cartlogo{
+    width:20px;
+    margin-right:2px;
+}
+
+.nav-items{
+    padding: 0 80px;
+}
+
+.nav-items > ul{
+    font-size:24px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul > li{
+    padding:10px;
+    margin:10px
+}
+
+
+.res-container{
+    display:flex;
+    flex-wrap:wrap;
+     gap:10px;
+    /* padding:10px; */
+}
+
+.res-card{
+
+
+    
+    /* transition: all 0.05s ease 0s; */
+       display:flex;
+    flex-wrap:wrap;
+    margin: 5px;
+    /* background-color: #c99292; */
+    padding:5px;
+    width:200px;
+    /* height:300px; */
+
+    /* border: 1px solid black; */
+.res-info{
+     
+width:100%;
+    .res-name{
+        margin-top:10px;
+        white-space: nowrap;
+        /* overflow: hidden; */
+        text-overflow: ellipsis;
+        width: 100%;
+        /* text-overflow: ellipsis; */
+        /* display: flex; */
+        /* justify-content: center; */
+        max-height: 62px;
+        font-family: "Basis Grotesque Pro";
+        font-size: 18px;
+        font-weight: 700;
+        overflow: auto;
+        letter-spacing: -0.3px;
+        color: rgba(2, 6, 12, 0.75);
+        overflow: hidden;
+        width: 100%;
+ 
+    }
+      .res-cuisine{
+        min-height: 38px;
+        margin-top: 8px;
+        max-height: 42px;
+        font-size: 15px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100%;
+       
+      }
+      .res-footer-container{
+       
+        display: flex;
+        /* gap:2px; */
+        /* margin-top: 24px; */
+        /* justify-content: space-between; */
+        .res-ratings{
+            display:flex;
+            align-items: center;
+gap:3px;
+
+        }
+      .dot{
+        margin:0 5px;
+      }
+      }
+    
+
+}
+
+}
+.res-card:hover{
+    /* transition: all 0.05s ease 0s; */
+    /* box-shadow: 10px 0 10px 0 rgba(61, 59, 59, 0.2); */
+    cursor:pointer;
+    transform: scale(0.95, 0.95);
+    transform-origin: center center;
+    transition: all 0.1s ease-in 0s;
+}
+.Search{
+    padding:10px;
+}
+.res-image{
+    width:100%;
+    height:200px;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+    border-radius: 16px;
+    overflow: hidden;
+}
+.res-logo{
+    height: 100%;
+    object-fit: cover;
+    /* padding:5px; */
+    /* margin:5px; */
+    width:100%;
+    
+}
